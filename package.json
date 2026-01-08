@@ -1,0 +1,23 @@
+{
+  "name": "cloudflare-workers",
+  "version": "1.0.0",
+  "description": "Cloudflare Workers collection for webhooks and automation",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "webhooks",
+    "phantombuster"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "wrangler": "^3.94.0"
+  }
+}

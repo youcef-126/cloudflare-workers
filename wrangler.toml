@@ -1,0 +1,12 @@
+name = "phantombuster-webhook"
+main = "src/phantombuster-webhook.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (set these via: wrangler secret put <NAME>)
+# Required secrets:
+# - RESEND_API_KEY: Your Resend API key
+# - EMAIL_FROM: Email address to send from (e.g., "webhooks@yourdomain.com")
+
+[vars]
+# Public environment variables can be set here
+# EMAIL_TO = "mahmoud@expanso.io"
