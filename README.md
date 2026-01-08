@@ -129,7 +129,7 @@ Add the following secrets to your GitHub repository (Settings → Secrets and va
    - Find at: https://dash.cloudflare.com/ (right sidebar)
 
 3. `RESEND_API_KEY` - Your Resend API key
-   - Value: `re_Z1swq6aj_F1eDM64y4Wu4oFF7KaqX25z7`
+   - Get from: https://resend.com/api-keys
 
 4. `EMAIL_FROM` - Email sender address
    - Example: `webhooks@expanso.io`
